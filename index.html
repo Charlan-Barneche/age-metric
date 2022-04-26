@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section id="infos">
+        <div>
+            <p id="nascimento">Ano de Nascimento</p>
+                <div class="age-moldure">
+                    <input type="number" name="" id="age" min="1930" required placeholder="1950">
+                </div>            
+        </div>
+        <p>Sexo</p>
+        <div id="sexos">
+                <div id="inputs">
+                    <span>
+                        <input type="radio" name="sex" id="masc" checked>
+                        <label for="masc">Masculino</label>
+                    </span>
+                    <span>
+                        <input type="radio" name="sex" id="fem">
+                        <label for="fem">Feminino</label>
+                    </span>
+                </div>
+        </div>
+        <input type="button" value="Verificar" id="btn">
+        <div>
+            <p id="resul"><strong><nobr>Preencha os dados acima</nobr> para ver o resultado!</strong></p>
+        </div>
+        <div id="img">
+
+        </div>
+        
+    </section>
+    <footer>
+        <p>&copy; <a href="https://github.com/Charlan-Barneche" target="_blank">  Charlan-Barneche</p></a>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
