@@ -13,7 +13,7 @@
   <h2></h2>
   <p><strong>link do projeto no ar:</p></strong> 
   <div>
-  *link* <img align="bottom" width="50px" alt="JS" src="https://media.giphy.com/media/9366IYNrJIFZeEyiwt/giphy.gif">
+  https://charlan-barneche.github.io/age-metric/ <img align="bottom" width="50px" alt="JS" src="https://media.giphy.com/media/9366IYNrJIFZeEyiwt/giphy.gif">
   <h2></h2>
   </div>  
 </body>
